@@ -1,6 +1,6 @@
 const defaultState = {
     user: {},
-    isAuth: false
+    isAuth: null
 }
 
 const SET_USER = 'SET_USER'
@@ -11,7 +11,7 @@ const userReducer = (state = defaultState, action) => {
         case SET_USER:
             return {...state, user: action.payload.user, isAuth: true}
         case LOGOUT:
-            return {...state, ...defaultState}
+            return {...state, isAuth: false}
         default:
             return state
     }
