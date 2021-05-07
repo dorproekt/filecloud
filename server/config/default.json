@@ -1,0 +1,5 @@
+{
+    "PORT": 6111,
+    "dbUrl": "mongodb+srv://workflow:YK3DeNMjjvUsK8Cn@cluster0.6nwcy.mongodb.net/fileStore?retryWrites=true&w=majority",
+    "secretKey": "test xxx"
+}

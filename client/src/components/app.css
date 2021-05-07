@@ -1,0 +1,9 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.error{
+    background-color: #f44336;
+}
+
+.success{
+    background-color: #2bbbad;
+}
